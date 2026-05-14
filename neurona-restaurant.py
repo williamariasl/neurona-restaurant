@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 import math
-import matplotlib.pyplot as plt # NUEVO: Para graficar los resultados
+import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout, Conv1D, MaxPooling1D # NUEVO: Capas CNN
+from tensorflow.keras.layers import LSTM, Dense, Dropout, Conv1D, MaxPooling1D
 
 # ==========================================
 # 1. PREPARACIÓN DE DATOS 
